@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    height:20px;
+    margin-bottom:10px;
+}
+.logout{
+    display:block;
+    float:right;
+    margin:5px 10px 0 0;
+}
+.control{
+    margin-left:5px;
+}
+#add_button{
+    background:green;
+    color:#efefef;
+    text-align:center;
+    cursor:pointer;
+}
+#add_button:hover{
+    background:rgb(8, 90, 8);
+}
+#edit_button{
+    background:rgb(14, 14, 223);
+    color:#efefef;
+    padding:0px 1px;
+    border:2px solid grey;
+    display:inline-block;
+    text-decoration:none;
+    width:170px;
+    text-align:center;
+}
+#edit_button:hover{
+    background:rgb(20, 20, 192);
+}
+#delete_button{
+    background: rgb(197, 11, 11);
+    color: #efefef;
+    text-align: center;
+    display: inline-block;
+    padding: 0 1px 0 1px;
+    width: 140px;
+    border: 2px solid grey;
+    text-decoration: none;
+}
+#delete_button:hover{
+    background:rgb(148, 20, 20);
+}
+.objectives {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.objectives td{
+    border:2px solid black;
+    padding:5px;
+    margin:1px;
+   
+}
+.objective_description{
+    word-break: break-all;
+    width:300px;
+    max-height:100px;
+    overflow-y:auto;
+}
